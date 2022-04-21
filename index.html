@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dc83e83576.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">DCIT 101</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1><span>Raymond's Project</span> <br>About Raymond</h1>
+            <p class="par">Raymond Adoe is a level 100 Physical Science student. He has always loved computers <br>  
+                 from the time he was born. His dream is to develop softwares that will help improve lives <br>  
+                in his country.<br> Unfortunate for him he was given Physical Sciences instead of Computer Science <br>
+                He thought his dreams had come to an end, untill one day he was told by a lecturer that <br>
+                he was could still offer Computer science since Physical Sciences and Mathematical Sciences <br>
+                 are in the same department. From that day onwards Raymond thrived to be the best in all <br>
+                  the DCIT courses to get him to offer his dream courses and pursue a career he has always dreamt of <br>
+                And he is still working hard to major computer science untill now.</p>
+                
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+
+          <div class="container">
+       <div class="feedbackbox">
+       <div class="emoji">
+       <div id="emoji">
+            <img src="images/poor.png">
+            <img src="images/bad.png">
+            <img src="images/okay.png">
+            <img src="images/good.png">
+            <img src="images/excellent.png">
+         </div>
+       </div>
+           <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+         
+                </div>
+        </div>
+    </div>
+    <script>
+
+    var stars = document.getElementsByClassName("fa-solid");
+    var emoji = document.getElementById("emoji");
+
+       stars[0].onclick = function(){
+           stars[0].style.color = "#ffd93b";
+           stars[1].style.color = "#e4e4e4";
+           stars[2].style.color = "#e4e4e4";
+           stars[3].style.color = "#e4e4e4";
+           stars[4].style.color = "#e4e4e4";
+           emoji.style.transform = "translateX(0)";
+}
+        stars[1].onclick = function(){
+           stars[0].style.color = "#ffd93b";
+           stars[1].style.color = "#ffd93b";
+           stars[2].style.color = "#e4e4e4";
+           stars[3].style.color = "#e4e4e4";
+           stars[4].style.color = "#e4e4e4";
+           emoji.style.transform = "translateX(-100px)";
+}
+        stars[2].onclick = function(){
+           stars[0].style.color = "#ffd93b";
+           stars[1].style.color = "#ffd93b";
+           stars[2].style.color = "#ffd93b";
+           stars[3].style.color = "#e4e4e4";
+           stars[4].style.color = "#e4e4e4";
+           emoji.style.transform = "translateX(-200px)";
+}
+        stars[3].onclick = function(){
+           stars[0].style.color = "#ffd93b";
+           stars[1].style.color = "#ffd93b";
+           stars[2].style.color = "#ffd93b";
+           stars[3].style.color = "#ffd93b";
+           stars[4].style.color = "#e4e4e4";
+           emoji.style.transform = "translateX(-300px)";
+}
+         stars[4].onclick = function(){
+           stars[0].style.color = "#ffd93b";
+           stars[1].style.color = "#ffd93b";
+           stars[2].style.color = "#ffd93b";
+           stars[3].style.color = "#ffd93b";
+           stars[4].style.color = "#ffd93b";
+           emoji.style.transform = "translateX(-400px)";
+}
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+    
+</body>
+</html>  
